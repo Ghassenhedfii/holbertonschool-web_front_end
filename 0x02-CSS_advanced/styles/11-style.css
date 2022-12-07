@@ -36,6 +36,9 @@ html {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
+  .card-category {
+    color: var(--color-primary);
+}
   body, a {
     color: var(--text-color);
   }
