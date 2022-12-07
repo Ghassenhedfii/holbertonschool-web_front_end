@@ -393,13 +393,13 @@
 }
  
   body {
+    color: #161616;
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular); 
     line-height: var(--line-height-base);
 }
-  h1, h2, h3, h4, h5, h6,
-    .section-tagline, .section-title {
+  h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
@@ -410,6 +410,7 @@ body, a:link {
     color: var(--text-color);
   }
   a:link {
+    color: var(--text-color);
     text-decoration: none;
   }
   a:visited {
